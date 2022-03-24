@@ -1,9 +1,14 @@
 {
-    "name": "7interactive/php-assets-date",
-    "description": "Contains all possible date and time related classes for internal development.",
+    "name": "7interactive/7rs-base-model",
+    "description": "Contains all possible Doctrine classes for internal usage.",
     "type": "library",
     "require": {
-        "php": ">=8.0"
+        "php": ">=7.3"
+    },
+    "require-dev": {
+        "nettrine/orm": "^0.8.1",
+        "nettrine/dbal": "^0.7.0",
+        "nettrine/annotations": "^0.7.0"
     },
     "autoload": {
         "classmap": [
